@@ -5,3 +5,4 @@ export const fetchTweets = async () => {
     const tweets = await program.value.accout.tweet.all();
     return tweets
 }
+
