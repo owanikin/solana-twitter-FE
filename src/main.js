@@ -1,11 +1,11 @@
 // CSS.
-import "solana-wallets-vue/styles.css"
+import 'solana-wallets-vue/styles.css'
 import './main.css'
 
 // Day.js
-import dayjs from "dayjs"
-import localizedFormat from "dayjs/plugin/localizedFormat"
-import relativeTime from "dayjs/plugin/relativeTime"
+import dayjs from 'dayjs'
+import localizedFormat from 'dayjs/plugin/localizedFormat'
+import relativeTime from 'dayjs/plugin/relativeTime'
 dayjs.extend(localizedFormat)
 dayjs.extend(relativeTime)
 
